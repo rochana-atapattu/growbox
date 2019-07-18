@@ -31,8 +31,8 @@ def tempurature():
     humidity,temp = Adafruit_DHT.read_retry(DHT22, gpiopins.DHT22_BCM_PIN)
 
     if humidity is not None and temp is not None:
-    print('Temp={0:0.1f}*C  Humidity={1:0.1f}%'.format(temp, humidity))
+        print('Temp={0:0.1f}*C  Humidity={1:0.1f}%'.format(temp, humidity))
     else:
-    print('Failed to get reading. Try again!')
+        print('Failed to get reading. Try again!')
 
     return(humidity,temp)
