@@ -1,0 +1,10 @@
+#GPIO pin connections for each I/O
+
+
+DHT22_PIN = 19
+PUMP_UP_PIN = 3
+LED_PIN = 5
+PUMP_MIX_PIN = 7
+SOLENOID_PIN = 11
+TRIGGER_PIN = 8
+ECHO_PIN = 10
